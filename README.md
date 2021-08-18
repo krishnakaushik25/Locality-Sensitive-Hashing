@@ -64,25 +64,47 @@ Libraries - scikit-learn, pandas, numpy, pickle, yaml, datasketch ,
 ## Approach 
 
 Importing the required libraries and packages
+
 Open the config.yaml file. (This is a configuration file that can be edited according to your dataset)
+
 Read the JSON file
+
 Clean the JSON file
+
     - Reset index in the data
+    
     - Convert list to integers
+    
     - Remove rows above certain threshold values
+    
     - Replace empty values with an empty list if any
+    
     - Store the cleaned file
+    
     - Calculate feature counts for scoring
+    
 Model Training
+
     - Create a MinHashForest Model
+    
     - Create an LSH graph object
+    
     - Train the model
+    
     - Save the model to a pickle file
+    
 Seed set Extension
+
     - Read the saved model
+    
     - Read the seed set data
+    
     - Retrieve the neighbors of seed set from LSH graph
+    
     - Calculate the default click rate
+    
     - Score the neighbors
+    
     - Create and store the extension file
+    
     - Find the increased click rate.
