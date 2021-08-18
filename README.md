@@ -63,13 +63,13 @@ Libraries - scikit-learn, pandas, numpy, pickle, yaml, datasketch ,
 
 ## Approach 
 
-Importing the required libraries and packages
+1.Importing the required libraries and packages
 
-Open the config.yaml file. (This is a configuration file that can be edited according to your dataset)
+2.Open the config.yaml file. (This is a configuration file that can be edited according to your dataset)
 
-Read the JSON file
+3.Read the JSON file
 
-Clean the JSON file
+4.Clean the JSON file
 
     - Reset index in the data
     
@@ -83,7 +83,7 @@ Clean the JSON file
     
     - Calculate feature counts for scoring
     
-Model Training
+5.Model Training
 
     - Create a MinHashForest Model
     
@@ -93,7 +93,7 @@ Model Training
     
     - Save the model to a pickle file
     
-Seed set Extension
+6.Seed set Extension
 
     - Read the saved model
     
