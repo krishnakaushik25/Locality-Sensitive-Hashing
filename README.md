@@ -33,13 +33,13 @@ The dataset used is from a company called ‘Adform’. This dataset is from a p
 
  
 
-The file is gzipped and each line corresponds to a single record, serialized as JSON. The JSON has the following fields:
+The file is unzipped and each line corresponds to a single record, serialized as JSON. The JSON has the following fields:
 
 - "l": The binary label indicating whether the ad was clicked (1) or not (0).
 
 - "c0" - "c9": Categorical features which were hashed into a 32-bit integer.
 
-- Here, c6 and c9 have multiple values perusers and the rest have single values per user.
+- Here, c6 and c9 have multiple values per user and the rest have single value per user.
 
 To know more about the dataset, access the following link:
 
@@ -57,7 +57,7 @@ To build a lookalike model to find similar users using the Locality Sensitive Ha
 
 Language - Python
 
-Libraries - scikit-learn, pandas, numpy, pickle, yaml, datasketch ,
+Libraries - scikit-learn, pandas, numpy, pickle, yaml, datasketch 
 
  
 
