@@ -24,7 +24,11 @@ Lookalike models are models used to build larger audiences from smaller segments
 
 In this project, we will build a Lookalike model that will help us find similar and relevant customers with the help of the LSH – Locality Sensitive Handling algorithm. This algorithm will hence improve the click rate.
 
- 
+
+The pdf file Lookalike_Modelling.pdf has the details for the complete methodology used in the project.
+
+
+Star⭐ the repo if you like what you see😉.
 
  
 
