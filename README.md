@@ -1,6 +1,7 @@
 # Locality Sensitive Hashing Python Code for Look-Alike Modelling
 
-This project idea is based on the research paper below: [A Sub-linear, Massive-scale Look-alike Audience Extension System](http://proceedings.mlr.press/v53/ma16.pdf)
+This project idea is based on the research paper below: [A Sub-linear, Massive-scale Look-alike Audience Extension System](http://proceedings.mlr.press/v53/ma16.pdf).With look-alike audience extension system, any advertiser can easily generate a set of customized audience by just providing a list of existing customers without knowing the detailed targetable attributes in a sophisticated advertising system.
+
 ## Business Objective
 
 Let’s say you wish to generate brand awareness of your product and increase its sale; online advertising is the easiest way to do it. Online advertising is considered one of the most effective and efficient ways for businesses of all sizes to expand their reach, find new customers, and diversify their revenue streams.
