@@ -1,6 +1,38 @@
-# Locality Sensitive Hashing Python Code for Look-Alike Modelling
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/krishnakaushik25/Similar-Images-Finder">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Similar Images Finder with Python, Keras, and Tensorflow</h3>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+    <li><a href="#Introduction">Introduction</a></li>
+    <li><a href="#Business Objective">Business Objective</a></li>
+    <li><a href="#Data Description">Data Description</a></li>
+    <li><a href="#Aim">Aim</a></li>
+    <li><a href="#Tech Stack">Tech Stack</a></li>
+    <li><a href="#Approach">Approach</a></li>
+
+  
+  </ol>
+</details>
+
+
+## Introduction
 
 This project idea is based on the research paper below: [A Sub-linear, Massive-scale Look-alike Audience Extension System](http://proceedings.mlr.press/v53/ma16.pdf). With look-alike audience extension system, any advertiser can easily generate a set of customized audience by just providing a list of existing customers without knowing the detailed targetable attributes in a sophisticated advertising system.
+
+[![architecture Screen Shot][architecture]](https://www.linkpicture.com/q/architecture.png)
+
+
 
 ## Business Objective
 
@@ -114,3 +146,7 @@ Libraries - scikit-learn, pandas, numpy, pickle, yaml, datasketch
     - Create and store the extension file
     
     - Find the increased click rate.
+
+
+
+[architecture]: images/architecture.png
