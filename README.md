@@ -6,7 +6,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Similar Images Finder with Python, Keras, and Tensorflow</h3>
+  <h3 align="center">Lookalike model to find customers who are most likely to click on an ad</h3>
 </p>
 
 
